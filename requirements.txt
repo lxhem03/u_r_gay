@@ -1,0 +1,5 @@
+pyrogram 
+gunicorn
+flask 
+Tgcrypto 
+pymongo[srv]
