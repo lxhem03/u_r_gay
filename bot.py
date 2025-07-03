@@ -10,6 +10,6 @@ logging.getLogger("pyrogram").setLevel(logging.ERROR)
 nectar = Client("Telegram-Guy", api_id=API_ID, api_hash=API_HASH, plugins={"root": "plugins"},bot_token=BT)
 
 
-if name == "__main__"
+if __name__ == "__main__":
     print("Nectar is started....")
     nectar.run()
