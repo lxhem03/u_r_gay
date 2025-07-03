@@ -7,4 +7,9 @@ logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 
-nectar = Client("Telegram-Guy", api_id=API_ID, api_hash=API_HASH, bot_token=BT)
+nectar = Client("Telegram-Guy", api_id=API_ID, api_hash=API_HASH, plugins={"root": "plugins"},bot_token=BT)
+
+print("Nectar is started....")
+
+if name = "__main__"
+    nectar.run()
