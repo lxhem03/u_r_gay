@@ -1,4 +1,4 @@
-import os 
+import os, environ
 
 BT = environ.get("BT", "7721902522:AAFnaEw9JuYmmfqPybFkgX60mGqO-fk9bJE")
 API_ID = int(environ.get("API_ID", "27394279"))
