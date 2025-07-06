@@ -2,8 +2,8 @@ from typing import Any
 from config import DB, DB_N
 from motor import motor_asyncio
 
-client: motor_asyncio.AsyncIOMotorClient[Any] = motor_asyncio.AsyncIOMotorClient(DB_URI)
-db = client[DB_NAME]
+client: motor_asyncio.AsyncIOMotorClient[Any] = motor_asyncio.AsyncIOMotorClient(DB)
+db = client[DB_N]
 
 class TelegramGuy:
     def __init__(self):
